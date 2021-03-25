@@ -1,9 +1,7 @@
 {
   "name": "employee-tracker",
   "version": "1.0.0",
-  "description": "AS A business owner
-  I WANT to be able to view and manage the departments, roles, and employees in my company
-  SO THAT I can organize and plan my business",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/AlanM09/Employee-Tracker/issues"
   },
-  "homepage": "https://github.com/AlanM09/Employee-Tracker#readme"
+  "homepage": "https://github.com/AlanM09/Employee-Tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.0.0",
+    "mysql2": "^2.2.5",
+  }
 }
